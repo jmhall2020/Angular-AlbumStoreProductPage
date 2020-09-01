@@ -8,7 +8,7 @@ export class ProductService {
 
   constructor(private _http: Http) { }
 
-  getAlbum(number id) {
+  getAlbum(id: number) {
     
   }
 
