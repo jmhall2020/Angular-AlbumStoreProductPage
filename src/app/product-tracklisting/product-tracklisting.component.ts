@@ -9,7 +9,9 @@ import { ProductService } from '../product.service';
 })
 export class ProductTracklistingComponent implements OnInit {
 
-  constructor() { }
+  albumInfo: Album;
+
+  constructor(private _productService: ProductService) { }
 
   ngOnInit() {
   }
