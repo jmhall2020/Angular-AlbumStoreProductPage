@@ -18,6 +18,6 @@ export class ProductService {
   }
 
   getProducts() {
-    return this._http.get(_productsUrl);
+    return this._http.get(this._productsUrl);
   }
 }
